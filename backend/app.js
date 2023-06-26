@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 // db connection
 db.authenticate()
   .then(() => {
-    console.log('Conectou o banco com sucesso');
+    console.log('Conectou o banco com sucesso 3');
   })
   .catch((error) => {
     console.log('Ocorreu um erro ao conectar', error);
